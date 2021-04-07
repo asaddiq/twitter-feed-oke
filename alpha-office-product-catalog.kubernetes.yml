@@ -33,7 +33,7 @@ metadata:
   labels:
     app: product-catalog-app
     commit: 4ca160fd05c003e5067fd6d9c8213656b24b962c
-annotations:
+  annotations:
     service.beta.kubernetes.io/oci-load-balancer-shape: 400Mbps
 spec:
   ports:
